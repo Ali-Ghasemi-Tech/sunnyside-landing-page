@@ -5,8 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SunnySide</title>
+    <link rel="stylesheet" href="./dist/output.css">
 </head>
 <body>
-    
+    <header class="flex justify-between px-5 py-10 items-center fixed inset-x-0 top-0 bg-blue-500">
+        <img src="./images/logo.svg" alt="">
+        <img src="./images/icon-hamburger.svg" alt="">
+
+        <div class="bg-gray-400 fixed top-[110px] inset-x-[16px] hidden">
+            <li class="flex flex-col justify-center items-center gap-4 text-gray-700 text-lg ">
+                <a class="hover:bg-yellow-300 hover:text-black font-bold py-[1em] px-[2em] rounded-full" href="">Service</a>
+                <a class="hover:bg-yellow-300 hover:text-black font-bold py-[1em] px-[2em] rounded-full" href="">About</a>
+                <a class="hover:bg-yellow-300 hover:text-black font-bold py-[1em] px-[2em] rounded-full" href="">Projects</a>
+                <a class="hover:bg-yellow-300 hover:text-black font-bold py-[1em] px-[2em] rounded-full" href="">Contact</a>
+            </li>
+        </div>
+        
+    </header>
 </body>
 </html>
