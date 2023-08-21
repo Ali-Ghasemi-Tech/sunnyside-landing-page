@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navbar-hide {
+    transform: scale();
+    scale : 0;
+    translate: 50% -60%; 
+}
+
+.navbar-show{
+    scale : 1;
+}
+
+svg{
+    color: white;
+}
+
+
+
+
