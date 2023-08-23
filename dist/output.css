@@ -556,6 +556,14 @@ video {
   right: 24px;
 }
 
+.bottom-\[25\%\] {
+  bottom: 25%;
+}
+
+.bottom-\[5\%\] {
+  bottom: 5%;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -584,6 +592,10 @@ video {
   top: 43%;
 }
 
+.bottom-\[7\%\] {
+  bottom: 7%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -607,6 +619,10 @@ video {
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
 }
 
 .w-\[90\%\] {
@@ -670,11 +686,6 @@ video {
   padding-right: 2em;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -683,6 +694,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-\[15\%\] {
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 .py-\[1em\] {
@@ -696,6 +712,10 @@ video {
 
 .pb-\[5\%\] {
   padding-bottom: 5%;
+}
+
+.pb-\[8\%\] {
+  padding-bottom: 8%;
 }
 
 .text-center {
@@ -738,12 +758,32 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-emerald-700 {
+  --tw-text-opacity: 1;
+  color: rgb(4 120 87 / var(--tw-text-opacity));
+}
+
+.text-emerald-800 {
+  --tw-text-opacity: 1;
+  color: rgb(6 95 70 / var(--tw-text-opacity));
+}
+
+.text-cyan-700 {
+  --tw-text-opacity: 1;
+  color: rgb(14 116 144 / var(--tw-text-opacity));
+}
+
+.text-cyan-800 {
+  --tw-text-opacity: 1;
+  color: rgb(21 94 117 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
 
-.decoration-yellow-400 {
-  text-decoration-color: #facc15;
+.decoration-pink-500 {
+  text-decoration-color: #ec4899;
 }
 
 .decoration-yellow-300 {
@@ -752,10 +792,6 @@ video {
 
 .decoration-4 {
   text-decoration-thickness: 4px;
-}
-
-.underline-offset-4 {
-  text-underline-offset: 4px;
 }
 
 .underline-offset-\[10px\] {
@@ -791,15 +827,15 @@ svg{
 }
 
 h4{
-  font-size: clamp(1.9em , 10vw , 5em);
+  font-size: clamp(1.5em , 9vw , 5em);
 }
 
 .casual-text{
-  font-size: clamp(0.5em , 5vw , 2em);
+  font-size: clamp(0.4em , 4.5vw , 2.2em);
 }
 
 .link{
-  font-size: clamp(0.2em , 4.2vw , 2em);
+  font-size: clamp(0.2em , 4.2vw , 2.5em);
 }
 
 .hover\:bg-yellow-300:hover {
