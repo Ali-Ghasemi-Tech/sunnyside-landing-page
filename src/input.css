@@ -21,5 +21,15 @@ svg{
     font-size: clamp( 2.7em , 12vw , 20em);
 }
 
+h4{
+    font-size: clamp(1.9em , 10vw , 5em);
+}
 
+.casual-text{
+    font-size: clamp(0.5em , 5vw , 2em);
+}
+
+.link{
+    font-size: clamp(0.2em , 4.2vw , 2em);
+}
 
