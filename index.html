@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SunnySide</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./src/input.css">
 </head>
 <body class="bg-black">
-    <header class="flex justify-between px-5 py-10 items-center fixed inset-x-0 top-0 bg-blue-500">
+    <header class="flex justify-between px-5 py-8 items-center fixed inset-x-0 top-0 bg-transparent z-10">
         <img src="./images/logo.svg" alt="">
         <img id="menu-button" src="./images/icon-hamburger.svg" alt="">
 
@@ -17,15 +18,30 @@
                 <polygon points="0 0, 32 0, 32 32" />
             </svg>
 
-            <li class="flex flex-col justify-center items-center gap-4 text-gray-700 text-lg ">
+            <li class="flex flex-col justify-center items-center gap-4 text-gray-700 text-lg py-5">
                 <a class=" hover:bg-yellow-300 hover:text-black font-bold py-[1em] px-[2em] rounded-full" href="">Service</a>
                 <a class=" hover:bg-yellow-300 hover:text-black font-bold py-[1em] px-[2em] rounded-full" href="">About</a>
                 <a class=" hover:bg-yellow-300 hover:text-black font-bold py-[1em] px-[2em] rounded-full" href="">Projects</a>
                 <a class=" hover:bg-yellow-300 hover:text-black font-bold py-[1em] px-[2em] rounded-full" href="">Contact</a>
             </li>
         </div>
-        
     </header>
+
+    <main class="">
+        <!-- hero section -->
+        <div class="relative">
+            <span class="absolute top-[20%] title w-[90%] font-bold mx-auto left-0 right-0 text-center text-white tracking-[0.2em] leading-snug">WE ARE CREATIVES</span>
+            <img class="scale-50 top-[43%] absolute w-[20%] mx-auto left-0 right-0" src="./images/icon-arrow-down.svg" alt="">
+            <img class="w-screen" src="images/mobile/image-header.jpg" alt="">
+        </div>
+        <!-- div 1 -->
+        <div>
+            <div>
+                <img class="w-screen" src="images/mobile/image-transform.jpg" alt="">
+            </div>
+        </div>
+        
+    </main>
 </body>
 <script src="./index.js"></script>
 </html>

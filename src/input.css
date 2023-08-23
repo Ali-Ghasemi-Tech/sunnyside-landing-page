@@ -17,6 +17,9 @@ svg{
     color: white;
 }
 
+.title{
+    font-size: clamp( 2.7em , 12vw , 20em);
+}
 
 
 
