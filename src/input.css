@@ -21,7 +21,7 @@ svg{
     font-size: clamp( 2.7em , 12vw , 20em);
 }
 
-h4{
+h4 , .h4{
     font-size: clamp(1.5em , 9vw , 5em);
 }
 
@@ -33,3 +33,11 @@ h4{
     font-size: clamp(0.2em , 4.2vw , 2.5em);
 }
 
+.client-position{
+    font-size: clamp(0.15em , 3vw , 2em);
+}
+
+.icons{
+    max-width: 50px;
+    max-height: 50px;
+}
